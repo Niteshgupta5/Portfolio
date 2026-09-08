@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Portfolio/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   define: {
     __BASE_PATH__: JSON.stringify('/'),
