@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { contactInfo } from '@/mocks/contact';
-import HCaptcha from '@hcaptcha/react-hcaptcha';
 
 export default function ContactSection() {
   const [formStatus, setFormStatus] = useState<
